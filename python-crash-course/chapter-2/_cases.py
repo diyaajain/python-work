@@ -13,3 +13,6 @@ print(person)
 nostarch_url = 'https://nostarch.com'
 nostarch_url = nostarch_url.removeprefix('https://')
 print(nostarch_url)
+
+description = 'Python is a programming language that lets you work quickly and integrate systems more effectively.'
+print(description.replace('Python', 'JavaScript'))
